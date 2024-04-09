@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+  --primary: red;
+  --secondary: white;
+  --color:white;
+
+}
+body{
+  padding: 0;
+  margin: 0;
+   font-family: "Raleway", sans-serif;
+}
+.container {
+  background-color: var(--primary);
+  color:var(--color);
+  margin: 0px;
+  display: flex;
+  min-width:100vw;
+  min-height: 100vh;
+  place-items: center;
+}
+.box{
+  width:450px;
+  padding: 40px 50px;
+  background-color: var(--secondary);
+  color: var(--primary);
+
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  border-radius: 3px;
+}
+
+.flex{
+  display: flex;
+}
+button, a{
+  all: unset;
+  cursor: pointer;
+}
+
+.container button{
+    padding: 0 1rem;
+    background-color: var(--primary);
+    color: var(--color);
+    border-radius: 5px;
+    height: 40px;
+  
+    
+}
+.container a{
+    background-color: var(--primary);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+      border-radius: 5px;
+}
+
+
+.box-buttons {
+  justify-content: space-between;
+  color: var(--secondary);
+  
+}
+
+.text-box span{
+  font-size: 24px;
+  font-weight: 400;
+
+}
+.text-box i{
+  font-size: 30px;
+    margin-right: 4px;
+}
+p.box-text{
+  text-align: end;
+}
+.flex .left-buttons{
+  gap: 1rem;
+}
